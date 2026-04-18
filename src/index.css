@@ -7,6 +7,8 @@
 @theme {
   --font-sans: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Ubuntu", sans-serif;
+
+
   
   /* --color-brand-primary: #000000; */
   /* --color-brand-primary: #0ea5e9; */
@@ -16,6 +18,11 @@
   --color-brand-secondary: #6366f1;
   /* --color-brand-accent: #fff000; */
   --color-brand-accent: #ACBAC4;
+
+
+  --color-brand-primary-beta: #7ecc1f;
+  --color-brand-secondary-beta2: #762685
+
 }
 
 @layer base {

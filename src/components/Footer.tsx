@@ -51,7 +51,7 @@ const Footer = ({ onNewSubscriber }: { onNewSubscriber?: () => void }) => {
             <div className="w-10 h-10 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-xl flex items-center justify-center">
               <Rocket className="text-white w-6 h-6" />
             </div>
-            <span className="text-xl font-display font-bold text-white">ZoZoTECH</span>
+            <span className="text-xl font-display font-bold text-white">ZOZOIT</span>
           </Link>
           <p className="text-slate-400 leading-relaxed">
             Empowering brands through innovative digital solutions. We build high-performance products that drive growth and engagement.

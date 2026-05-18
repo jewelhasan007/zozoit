@@ -620,29 +620,73 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: '1',
     title: 'The Future of Web Development in 2025',
-    excerpt: 'Exploring how AI and edge computing are reshaping the way we build for the web.',
+    excerpt1: 'Exploring how AI and edge computing are reshaping the way we build for the web.',
+    excerpt2: 'Exploring how AI and edge computing are reshaping the way we build for the web.',
     date: 'March 15, 2024',
     author: 'Alex Rivers',
     image: 'https://picsum.photos/seed/future/800/500',
-    category: 'Technology'
+    category: 'Technology',
+    features: [
+  "In-depth market research to identify profitable products",
+  "Competitor analysis and pricing strategy",
+  "Trend analysis to spot high-demand opportunities",
+  "Evaluation of product viability and sales potential",
+  "Recommendations for sourcing and listing optimization"
+]
   },
   {
     id: '2',
     title: 'Mastering SEO: Beyond Keywords',
-    excerpt: 'Why user intent and semantic search are the new pillars of digital visibility.',
+    excerpt1: 'Why user intent and semantic search are the new pillars of digital visibility.',
+    excerpt2: 'Why user intent and semantic search are the new pillars of digital visibility.',
     date: 'March 10, 2024',
     author: 'Sarah Chen',
     image: 'https://picsum.photos/seed/seo/800/500',
-    category: 'Marketing'
+    category: 'Marketing',
+    features: [
+  "In-depth market research to identify profitable products",
+  "Competitor analysis and pricing strategy",
+  "Trend analysis to spot high-demand opportunities",
+  "Evaluation of product viability and sales potential",
+  "Recommendations for sourcing and listing optimization"
+]
   },
   {
     id: '3',
     title: 'Designing for Accessibility',
-    excerpt: 'How to create inclusive digital products that everyone can use effectively.',
+    excerpt1: 'How to create inclusive digital products that everyone can use effectively.',
+    excerpt2: 'How to create inclusive digital products that everyone can use effectively.',
     date: 'March 5, 2024',
     author: 'Marcus Thorne',
     image: 'https://picsum.photos/seed/design/800/500',
-    category: 'Design'
+    category: 'Design',
+    features: [
+  "In-depth market research to identify profitable products",
+  "Competitor analysis and pricing strategy",
+  "Trend analysis to spot high-demand opportunities",
+  "Evaluation of product viability and sales potential",
+  "Recommendations for sourcing and listing optimization"
+]
+  },
+  {
+    id: '4',
+    title: 'People Don’t Buy Websites — They Buy Trust',
+    excerpt1: 'A typical freelancer sells a website. A strong digital agency sells trust, professionalism, strategy, and brand value. When clients choose a premium agency, they are not just paying for code.',
+    excerpt2: 'A typical freelancer sells a website. A strong digital agency sells trust, professionalism, strategy, and brand value. When clients choose a premium agency, they are not just paying for code.',
+    date: 'May 18, 2026',
+    author: 'Jewel Hasan',
+    image: 'https://picsum.photos/seed/design/800/500',
+    category: 'Design',
+    features: [
+ "Professional client communication",
+  "Clean presentations and branding",
+  "SEO optimization",
+  "Fast support & maintenance",
+  "Premium UI/UX experience",
+  "Digital marketing strategy",
+  "Business growth consultation",
+  "Long-term reliability"
+]
   }
 ];
 

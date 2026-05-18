@@ -20,6 +20,7 @@ import MoreAboutStats from './pages/MoreAboutStats';
 import CreateBlog from './pages/CreateBlog';
 import ClientMessage from './pages/ClientMessage';
 import SubscriberList from './pages/SubscriberList ';
+import BlogDetails from './pages/BlogDetails';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -46,6 +47,7 @@ export default function App() {
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/portfolio/:id" element={<ProjectDetails />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogDetails />} />
               <Route path="/create-blog" element={<CreateBlog />} />
               <Route path="/contact" element={<Contact />} />
              <Route path="/services/:slug" element={<LearnMore />} />

@@ -26,11 +26,13 @@ export interface Project {
 export interface BlogPost {
   id: string;
   title: string;
-  excerpt: string;
+  excerpt1: string;
+  excerpt2: string;
   date: string;
   author: string;
   image: string;
   category: string;
+ features: Array<string>;
 }
 
 export interface Testimonial {

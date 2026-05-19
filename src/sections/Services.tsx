@@ -16,7 +16,7 @@ const iconMap: Record<string, any> = {
 
 const Services = () => {
   return (
-    <section className="py-24 px-6 bg-slate-950 relative overflow-hidden">
+<section className="py-24 px-6 bg-slate-950 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <motion.span

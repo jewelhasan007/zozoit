@@ -52,7 +52,7 @@ const steps = [
 const Process = () => {
 
   return (
-    <section className="py-24 px-6 bg-slate-900 relative overflow-hidden">
+   <section className="py-24 px-6 bg-slate-900 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <motion.span

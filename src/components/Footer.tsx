@@ -44,7 +44,7 @@ const Footer = ({ onNewSubscriber }: { onNewSubscriber?: () => void }) => {
   };
 
   return (
-    <footer className="bg-slate-950 border-t border-white/5 pt-20 pb-10 px-6">
+    <footer className="bg-[#455F6C] border-t border-white/5 pt-20 pb-10 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div className="space-y-6">
           <Link to="/" className="flex items-center gap-2">
